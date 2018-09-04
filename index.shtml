@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+      <title>OfficeN</title>
+      <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css"></link>
+      <link href="css/style.css" rel="stylesheet">
+   </head>
+   <body>
+      <section class="firstone coverBG" data-bg="images/homebg.jpg">
+         <nav>
+            <ul>
+               <li><a href="#">Services</a></li>
+               <li><a href="#">Work</a></li>
+               <li><a href="#">Contact</a></li>
+            </ul>
+         </nav>
+         <div class="container">
+            <div class="firstboxmid">
+               <div class="animlogo">
+                  <img src="images/officen.png" alt="OfficeN Homepage"/>
+               </div>
+               <div class="sidecontent">
+                  <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim metus non condimentum tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ut posuere risus.</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="secondone greybg">
+         <img class="sideimglook" src="images/harvestslice.png" alt="Point of Sale">
+         <img class="mobileimglook" src="images/posbox.png" alt="Point of Sale">
+         <div class="container">
+            <div class="singleflex">
+               <div>
+                  <h2>Point of Sale</h2>
+                  <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim metus non condimentum tincidunt.</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim metus non condimentum tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ut posuere risus.</p>
+                  <div class="linkshow">
+                     <ul>
+                        <li><a href="#">Read More</a></li>
+                        <li><a href="#">Visit Website</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="thirdone">
+         <img class="sideimglook" src="images/tuskerslice.png" alt="Tusker">
+         <img class="mobileimglook" src="images/tuskerbox.png" alt="Tusker">
+         <div class="container">
+            <div class="singleflex rightalign">
+               <div>
+                  <h2>Tusker Hydrosystems</h2>
+                  <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim metus non condimentum tincidunt.</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim metus non condimentum tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ut posuere risus.</p>
+                  <div class="linkshow">
+                     <ul>
+                        <li><a href="#">Read More</a></li>
+                        <li><a href="#">Visit Website</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="fourthone greybg">
+         <img class="sideimglook" src="images/fixserslice.png" alt="Fixser">
+         <img class="mobileimglook" src="images/fixserbox.png" alt="Fixser">
+         <div class="container">
+            <div class="singleflex">
+               <div>
+                  <h2>Fixser</h2>
+                  <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim metus non condimentum tincidunt.</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim metus non condimentum tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ut posuere risus.</p>
+                  <div class="linkshow">
+                     <ul>
+                        <li><a href="#">Read More</a></li>
+                        <li><a href="#">Visit Website</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <footer>
+               <div>
+                  <span>&copy; 2018 OFFICEN. ALL RIGHTS RESERVED.</span>
+                  <div class="followus">
+                     <span>Follow Us</span>
+                     <ul>
+                        <li><a href="#"><i class="fi fi-facebook"></i></a></li>
+                        <li><a href="#"><i class="fi fi-twitter"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </footer>
+         </div>
+      </section>
+   <!-- 
+   <div class="bodyhomepage">
+   </div>
+   -->
+   
+   <!-- script -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+   <script src="js/main.min.js"></script>
+   </body>
+</html>
