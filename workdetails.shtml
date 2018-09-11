@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+      <title>OfficeN - Work Details</title>
+      <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+      <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:400,500,600,800,900" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css"></link>
+      <link href="css/style.css" rel="stylesheet">
+   </head>
+   <body class="subpages">
+         <div id="nav-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
+         <a href="#" class="logomobiletop"><img src="images/redlogosmall.png" alt="OfficeN Homepage"/></a>
+         <div class="container navmenus">
+            <nav>
+               <ul>
+                  <li><a href="#">Services.</a></li>
+                  <li><a href="#">Work.</a></li>
+                  <li><a href="#">Contact.</a></li>
+               </ul>
+            </nav>
+         </div>
+      <header>
+         <div class="container">
+            <div class="menuflex">
+               <div><a href="#" class="redlogo"><img src="images/redlogo.png" alt="OfficeN"></a></div>
+               <div>
+                  <ul>
+                     <li><a href="#">Services.</a></li>
+                     <li><a href="#">Work.</a></li>
+                     <li><a href="#">Contact.</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </header>
+      <div class="detailbg coverBG" data-bg="images/blogcover.jpg">
+         <div>
+            <h1>Fixser</h1>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+         </div>
+      </div>
+      <div class="container">
+         <div class="blogarticle">
+            <h3>Challange</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non aliquam dui. Vestibulum ut dui quam. Phasellus sagittis, metus id condimentum varius, metus massa vulputate sem, sed accumsan mi elit eu leo.</p>
+            <ul>
+               <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim metus non condimentum tincidunt.</li>
+               <li>Suspendisse porta efficitur lectus. Praesent laoreet in eros id scelerisque.</li>
+               <li>Fusce magna nibh, porttitor quis faucibus vestibulum, consequat non nunc. Etiam vitae dictum ipsum, ut sodales mi.</li>
+            </ul>
+            <div class="imgdetailview">
+               <img src="images/blogimg.jpg" alt="">
+            </div>
+            <h3>Solution</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non aliquam dui. Vestibulum ut dui quam. Phasellus sagittis, metus id condimentum varius, metus massa vulputate sem, sed accumsan mi elit eu leo.</p>
+            <ul>
+               <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim metus non condimentum tincidunt.</li>
+               <li>Suspendisse porta efficitur lectus. Praesent laoreet in eros id scelerisque.</li>
+               <li>Fusce magna nibh, porttitor quis faucibus vestibulum, consequat non nunc. Etiam vitae dictum ipsum, ut sodales mi.</li>
+            </ul>
+            <div class="flexstatistics">
+               <div>
+                  <strong>150%</strong>
+                  <span>Lorem ipsum dolor sit amet.</span>
+               </div>
+               <div>
+                  <strong>22%</strong>
+                  <span>Lorem ipsum dolor sit amet.</span>
+               </div>
+               <div>
+                  <strong>20K</strong>
+                  <span>Views in Youtube.</span>
+               </div>
+               <div>
+                  <strong>16000</strong>
+                  <span>Lorem ipsum dolor sit amet.</span>
+               </div>
+            </div>
+            <div class="imgdetailview">
+               <img src="images/blogimg.jpg" alt="">
+            </div>
+            <h3>Results</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non aliquam dui. Vestibulum ut dui quam. Phasellus sagittis, metus id condimentum varius, metus massa vulputate sem, sed accumsan mi elit eu leo.</p>
+            <p>Suspendisse porta efficitur lectus. Praesent laoreet in eros id scelerisque. Fusce magna nibh, porttitor quis faucibus vestibulum, consequat non nunc. Etiam vitae dictum ipsum, ut sodales mi.</p>
+            <div class="imgdetailview">
+               <img src="images/blogimg.jpg" alt="">
+            </div>
+         </div>
+      </div>
+      <div class="container">
+         <div class="projectdetails">
+            <span>
+               <p>Client</p>
+               <h4>Fixser</h4>
+            </span>
+            <span>
+               <p>Sector</p>
+               <h4>Mechanical</h4>
+            </span>
+            <span>
+               <p>Services</p>
+               <h4>Design Development & Maintanence</h4>
+            </span>
+         </div>
+         <div class="suggestproject">
+            <h6>More <span>Projects</span></h6>
+            <div class="suggestflex">
+               <div>
+                  <a href="#" class="linkprojects">
+                     <img src="images/newproduct1.png" width="280" alt="">
+                     <h3>Harvest</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim metus non condimentum tincidunt.</p>
+                  </a>
+               </div>
+               <div>
+                  <a href="#" class="linkprojects">
+                     <img src="images/newproduct2.png" width="380" alt="">
+                     <h3>Tusker Hydrosystems</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim metus non condimentum tincidunt.</p>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <footer>
+         <div class="container">
+            <div class="footerflex">
+               <div>
+                  <span>&copy; 2018 OfficeN. All rights reserved.</span>
+               </div>
+               <div>
+                  <div class="followus">
+                     <ul>
+                        <li><a href="#"><i class="fi fi-facebook"></i></a></li>
+                        <li><a href="#"><i class="fi fi-instagram"></i></a></li>
+                        <li><a href="#"><i class="fi fi-twitter"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      
+   <!-- 
+   <div class="bodyhomepage">
+   </div>
+   -->
+   
+   <!-- script -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+   <script src="js/main.min.js"></script>
+   </body>
+</html>

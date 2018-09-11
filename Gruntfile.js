@@ -18,7 +18,7 @@ module.exports = function(grunt) {
         }
       },
       js: {
-        src: ['build/js/appeared.js', 'build/js/app/main.js'],
+        src: ['build/js/appeared.js' ,'build/js/isotope.pkgd.min.js', 'build/js/app/main.js'],
         dest: 'js/main.js'
       }
     },
@@ -45,7 +45,7 @@ module.exports = function(grunt) {
     connect: {
       server: {
         options: {
-          hostname: '192.168.1.17',
+          hostname: '192.168.1.5',
           port: 8000,
           base: '.',
           livereload: true

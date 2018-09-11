@@ -6,100 +6,143 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
       <title>OfficeN</title>
       <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
-      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:400,500,600,800,900" rel="stylesheet">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css"></link>
       <link href="css/style.css" rel="stylesheet">
    </head>
-   <body>
-      <section class="firstone coverBG" data-bg="images/homebg.jpg">
+   <body class="homewall homeground">
+      <div class="pagewrap hide">
+         <div id="nav-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
+         <a href="#" class="logomobiletop"><img src="images/logo.png" data-redimg="images/redlogosmall.png" data-whiteimg="images/logo.png" alt="OfficeN Homepage"/></a>
          <nav>
             <ul>
-               <li><a href="#">Services</a></li>
-               <li><a href="#">Work</a></li>
-               <li><a href="#">Contact</a></li>
+               <li><a href="#">Services.</a></li>
+               <li><a href="#">Work.</a></li>
+               <li><a href="#">Contact.</a></li>
             </ul>
          </nav>
-         <div class="container">
-            <div class="firstboxmid">
-               <div class="animlogo">
-                  <img src="images/officen.png" alt="OfficeN Homepage"/>
-               </div>
-               <div class="sidecontent">
-                  <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim metus non condimentum tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ut posuere risus.</p>
-               </div>
-            </div>
-         </div>
-      </section>
-      <section class="secondone greybg">
-         <img class="sideimglook" src="images/harvestslice.png" alt="Point of Sale">
-         <img class="mobileimglook" src="images/posbox.png" alt="Point of Sale">
-         <div class="container">
-            <div class="singleflex">
-               <div>
-                  <h2>Point of Sale</h2>
-                  <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim metus non condimentum tincidunt.</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim metus non condimentum tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ut posuere risus.</p>
-                  <div class="linkshow">
-                     <ul>
-                        <li><a href="#">Read More</a></li>
-                        <li><a href="#">Visit Website</a></li>
-                     </ul>
+         <section class="firstone scrollblock">
+            <div class="container">
+               <div class="firstboxmid">
+                  <div class="animlogo">
+                     <img src="images/logo.png" alt="OfficeN Homepage"/>
+                  </div>
+                  <div class="sidecontent">
+                     <img src="images/logo.png" class="moblogo" alt="OfficeN Homepage"/>
+                     <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim metus non condimentum.</p>
                   </div>
                </div>
             </div>
-         </div>
-      </section>
-      <section class="thirdone">
-         <img class="sideimglook" src="images/tuskerslice.png" alt="Tusker">
-         <img class="mobileimglook" src="images/tuskerbox.png" alt="Tusker">
-         <div class="container">
-            <div class="singleflex rightalign">
-               <div>
-                  <h2>Tusker Hydrosystems</h2>
-                  <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim metus non condimentum tincidunt.</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim metus non condimentum tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ut posuere risus.</p>
-                  <div class="linkshow">
-                     <ul>
-                        <li><a href="#">Read More</a></li>
-                        <li><a href="#">Visit Website</a></li>
-                     </ul>
+         </section>
+         <section class="secondone scrollblock greybg">
+            <div class="sectorcenter">
+               <div class="container">
+                  <div class="leftspacing">
+                     <span class="bgrepresent">Point of<br/>Sale</span>
+                     <img src="images/newproduct1.png" class="sideimglook" alt="">
+                     <div class="singleflex">
+                        <div>
+                           <img src="images/newproduct1.png" class="mobimglook" alt="">
+                           <h3>Harvest</h3>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim metus non condimentum tincidunt.</p>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
-         </div>
-      </section>
-      <section class="fourthone greybg">
-         <img class="sideimglook" src="images/fixserslice.png" alt="Fixser">
-         <img class="mobileimglook" src="images/fixserbox.png" alt="Fixser">
-         <div class="container">
-            <div class="singleflex">
-               <div>
-                  <h2>Fixser</h2>
-                  <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim metus non condimentum tincidunt.</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim metus non condimentum tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ut posuere risus.</p>
-                  <div class="linkshow">
-                     <ul>
-                        <li><a href="#">Read More</a></li>
-                        <li><a href="#">Visit Website</a></li>
-                     </ul>
+         </section>
+         <section class="thirdone scrollblock">
+            <div class="container">
+               <span class="bgrepresent">Hydro<br/>Systems</span>
+               <img src="images/newproduct2.png" class="sideimglook" alt="">
+               <div class="singleflex rightalign">
+                  <div>
+                     <img src="images/newproduct2.png" class="mobimglook" alt="">
+                     <h3>Tusker Hydrosystems</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim metus non condimentum tincidunt.</p>
                   </div>
                </div>
             </div>
-            <footer>
-               <div>
-                  <span>&copy; 2018 OFFICEN. ALL RIGHTS RESERVED.</span>
-                  <div class="followus">
-                     <span>Follow Us</span>
-                     <ul>
-                        <li><a href="#"><i class="fi fi-facebook"></i></a></li>
-                        <li><a href="#"><i class="fi fi-twitter"></i></a></li>
-                     </ul>
+         </section>
+         <section class="fourthone scrollblock greybg">
+            <div class="container">
+               <div class="leftspacing">
+                  <span class="bgrepresent">Fix&<br/>Service</span>
+                  <img src="images/newproduct3.png" class="sideimglook" alt="">
+                  <div class="singleflex">
+                     <div>
+                        <img src="images/newproduct3.png" class="mobimglook" alt="">
+                        <h3>Fixser</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim metus non condimentum tincidunt.</p>
+                     </div>
                   </div>
                </div>
-            </footer>
-         </div>
-      </section>
+            </div>
+         </section>
+         <section class="fifthone greybg">
+            <div> 
+               <div class="container">
+                  <div class="leftspacing">
+                     <h2>What we do?</h2>
+                  </div>
+               </div>
+               <div class="marquee">
+                    <span>Lorem ipsum dolor sit amet</span>
+               </div>
+               <div class="container">
+                  <div class="leftspacing">
+                     <div class="wedoflex">
+                        <div>
+                           <h4>Design-Driven innovation</h4>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non aliquam dui. Vestibulum ut dui quam. Phasellus sagittis, metus id condimentum varius, metus massa vulputate sem, sed accumsan mi elit eu leo.</p>
+                           <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                        </div>
+                        <div>
+                           <h4>Product Strategy & Ideation</h4>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non aliquam dui. Vestibulum ut dui quam. Phasellus sagittis, metus id condimentum varius, metus massa vulputate sem, sed accumsan mi elit eu leo.</p>
+                           <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                        </div>
+                        <div>
+                           <h4>Design-Driven innovation</h4>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non aliquam dui. Vestibulum ut dui quam. Phasellus sagittis, metus id condimentum varius, metus massa vulputate sem, sed accumsan mi elit eu leo.</p>
+                           <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                        </div>
+                        <div>
+                           <h4>Product Strategy & Ideation</h4>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non aliquam dui. Vestibulum ut dui quam. Phasellus sagittis, metus id condimentum varius, metus massa vulputate sem, sed accumsan mi elit eu leo.</p>
+                           <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <footer>
+            <div class="container">
+               <div class="footerflex">
+                  <div>
+                     <span>&copy; 2018 OfficeN. All rights reserved.</span>
+                  </div>
+                  <div>
+                     <div class="followus">
+                        <ul>
+                           <li><a href="#"><i class="fi fi-facebook"></i></a></li>
+                           <li><a href="#"><i class="fi fi-instagram"></i></a></li>
+                           <li><a href="#"><i class="fi fi-twitter"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </footer>
+      </div>
+      
    <!-- 
    <div class="bodyhomepage">
    </div>

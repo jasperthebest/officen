@@ -1,66 +1,164 @@
 @import "custom-variables";
 
+@media screen and (max-width:1380px) {
+	.blogarticle {
+		.imgdetailview { margin: 0; }
+	}
+}
 @media screen and (max-width:1300px) {
 	.secondone .sideimglook { width: 450px; }
 	.thirdone .sideimglook { width: 550px; }
 	.fourthone .sideimglook { width: 500px; }
+	.container { width: auto; }
+	.leftspacing { margin-left: 40px; }
+	.flexstatistics>div { text-align: center; }
+}
+@media screen and (max-width:1099px) {
+	.blogarticle { width: 100%; }
 }
 @media screen and (max-width:1023px) {
 	.animated {
-	opacity: 1 !important;
-	visibility: visible !important;
-	-webkit-animation-name: none !important;
-	-moz-animation-name: none !important;
-	animation-name: none !important;
-	-webkit-animation-duration: 0s !important;
-	-moz-animation-duration: 0s !important;
-	animation-duration: 0s !important;
-	-webkit-animation-delay: 0s !important;
-	-moz-animation-delay: 0s !important;
-	animation-delay: 0s !important;
+		opacity: 1 !important;
+		visibility: visible !important;
+		-webkit-animation-name: none !important;
+		-moz-animation-name: none !important;
+		animation-name: none !important;
+		-webkit-animation-duration: 0s !important;
+		-moz-animation-duration: 0s !important;
+		animation-duration: 0s !important;
+		-webkit-animation-delay: 0s !important;
+		-moz-animation-delay: 0s !important;
+		animation-delay: 0s !important;
 	}
-	.firstone:before, .fourthone:before, .sideimglook { display: none; }
-	.mobileimglook { display: block; margin: 0 auto; }
-	.firstboxmid { min-height: initial; }
-	.singleflex { min-height: initial; padding-bottom: 60px;
-		>div { flex-grow: 1; }
+	body { font-size: 20px; line-height: 28px; }
+	#nav-icon { display: inline-block; }
+	.firstone .container { padding-top: 0; }
+	.firstboxmid { height: 100vh; min-height: initial; padding-top: 45px;
+			> div {
+			&.animlogo { display: none; flex: 1 1 100%;
+				img { top: 0; }
+			}
+			&.sidecontent { flex: 0 1 600px; margin: 0 auto; padding-right: 0; text-align: center;
+				h1 { font-size: 36px; line-height: 40px; padding-bottom: 20px; text-align: left; }
+				p { font-size: 20px; line-height: 30px; text-align: left; width: 100%; }
+			}
+		}
 	}
-	.fourthone, .thirdone, .secondone { padding-top: 50px; }
-	footer { padding: 0 0 40px; }
+	.logomobiletop {
+		&.active { display: inline-block; }
+	}
+	.moblogo { display: inline-block; margin-bottom: 40px; max-width: 300px; }
+	.secondone  {
+		.mobimglook { max-width: 250px; }
+	}
+	.thirdone {
+		.mobimglook { max-width: 380px; }
+	}
+	.fourthone {
+		.mobimglook { max-width: 340px; }
+	}
+	.mobimglook { display: block; margin: 0 auto 25px; }
+	.sideimglook, .bgrepresent { display: none; }
+	.singleflex { min-height: initial; justify-content: center; padding: 35px 0;
+		&.rightalign { justify-content: center; }
+		> div {
+			h3 { font-size: 32px; line-height: 36px; }
+		}
+	}
+	.marquee { top: 40px; 
+		span { font-size: 90px; line-height: 100px; }
+	}
+	.fifthone {
+		h2 { font-size: 38px; line-height: 40px; }
+		> div { padding: 70px 0 30px; 
+			h4 { font-size: 26px; line-height: 34px; padding-bottom: 15px; }
+		}
+	}
+	.wedoflex>div p { padding-bottom: 15px; }
+	footer { padding: 15px 0; }
+	.footerflex>div ul li { font-size: 20px; line-height: 24px; }
+	.wedoflex>div span { font-size: 18px; line-height: 24px; }
+	header { display: none; }
+	.workshowflex>div { width: 100%;
+		> div { padding: 0 0 60px; }
+	}
+	.linkprojects { padding: 270px 20px 20px; } 
+	.workaround { padding: 85px 0 0; }
+	.workaround h1 { font-size: 40px; line-height: 50px; padding: 0 0 30px 0; width: 100%; }
+	.filterlist { padding: 0 0 60px 0; }
+	.subpages {
+  		.logomobiletop, #nav-icon { display: inline-block; }
+	}
+	.blogarticle {
+		h1 { font-size: 36px; line-height: 42px; }
+		h2 { font-size: 32px; line-height: 38px; }
+		h3 { font-size: 28px; line-height: 36px; }
+		h4 { font-size: 24px; line-height: 30px; }
+		h5 { font-size: 22px; line-height: 28px; }
+		h6 { font-size: 20px; line-height: 28px; }
+	}
+	.detailbg>div {
+		h1 { font-size: 50px; line-height: 60px; padding-bottom: 25px; }
+		h3 { font-size: 40px; line-height: 50px; }
+	}
+	.suggestflex>div { flex: 1 1 100%; padding: 35px 0; }
 }
 @media screen and (max-width:960px) {
 	.container { width: auto; }
 }
 @media screen and (max-width:840px) {
-	.firstboxmid>div { flex-basis: 100%; }
-	.firstboxmid>div.animlogo { padding-bottom: 25px; text-align: center; }
-	.firstone { padding-top: 70px; 	}
-	nav { left: 0; text-align: center; top: 20px; width: 100%; }
+	.leftspacing { margin-left: 0; }
 }
 @media screen and (max-width:740px) {
-	h1 { font-size: 30px; line-height: 38px; }
-	h2 { font-size: 28px; line-height: 36px; }
-	.singleflex>div .linkshow ul li a { font-size: 15px; }
+	.wedoflex { width: 100%; }
+	.filterlist ul li { font-size: 18px; }
+	.blogarticle ul li { padding-left: 30px; }
 }
 @media screen and (max-width:600px) {
-	/*
-	nav { background-color: $grey; height: 100%; position: fixed; top: 0; width: 100%; z-index: 19; 
-		ul {
-			li { display: list-item; padding-bottom: 10px; }
-		}
-	}
-	*/
-	.singleflex>div .linkshow ul li a { font-size: 14px; }
-	nav ul li { padding: 0 15px; }
 	.animlogo img { width: 240px; }
+	.flexstatistics { padding-bottom: 25px;
+		>div { flex: 1 1 100%; padding-bottom: 25px; }
+	}
+	.blogarticle ul { padding-bottom: 25px; }
+	.blogarticle h1, .blogarticle h2, .blogarticle h3 { padding-bottom: 20px; }
+	.projectdetails { padding-bottom: 0; }
+}
+@media screen and (max-width:560px) {
+	.firstboxmid>div.sidecontent h1 { font-size: 32px; line-height: 38px; }
+	.filterlist ul li { font-size: 16px; padding: 0 10px; }
+	.workshowflex>div {
+		> div { padding: 0 0 40px; }
+	}
+	.linkprojects {
+		h3 { font-size: 30px; line-height: 38px; }
+		p { font-size: 18px; line-height: 24px; }
+	}
+	.blogarticle { padding: 40px 0 10px; }
 }
 @media screen and (max-width:480px) {
-	footer { text-align: center;
-		>div {
-			.followus { padding-left: 0; }
-			span { font-size: 13px; padding-bottom: 15px; }
+	.moblogo { width: 200px; }
+	.footerflex { flex-direction: column-reverse; 
+		> div { text-align: center; width: 100%; 
+			ul { padding-bottom: 10px; text-align: center; }
 		}
 	}
-	.singleflex>div .linkshow ul li a { font-size: 13px; }
-	.animlogo img { width: 200px; }
+	.mobimglook { width: 100%; }
+	.wedoflex>div { padding: 0 0 40px; }
+	.fifthone>div h4 { font-size: 24px; line-height: 30px; }
+	.filterlist ul li { font-size: 14px; }
+	.workaround h1 { font-size: 30px; line-height: 40px; }
+	.linkprojects img { right: 0; top: -25px; }
+	.flexstatistics>div strong { font-size: 50px; line-height: 60px; }
+	.suggestflex>div { padding: 25px 0; }
+}
+@media screen and (max-width:400px) {
+	.firstboxmid>div.sidecontent h1 { font-size: 28px; line-height: 35px; }
+	.filterlist ul li { padding: 0 5px; }
+}
+@media screen and (max-width:370px) {
+	.filterlist ul li { font-size: 12px; }
+	.linkprojects { padding-top: 240px; }
+}
+@media screen and (max-width:360px) {
+	.linkprojects h3 { font-size: 25px; line-height: 32px; }
 }
