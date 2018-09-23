@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+      <title>OfficeN - Work Details</title>
+      <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+      <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:400,500,600,800,900" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css"></link>
+      <link href="css/style.css" rel="stylesheet">
+   </head>
+   <body class="subpages">
+         <div id="nav-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
+         <a href="#" class="logomobiletop"><img src="images/redlogosmall.png" alt="OfficeN Homepage"/></a>
+         <div class="container navmenus">
+            <nav>
+               <ul>
+                  <li><a href="#">Services.</a></li>
+                  <li><a href="#">Work.</a></li>
+                  <li><a href="#">Contact.</a></li>
+               </ul>
+            </nav>
+         </div>
+      <header>
+         <div class="container">
+            <div class="menuflex">
+               <div><a href="#" class="redlogo"><img src="images/redlogo.png" alt="OfficeN"></a></div>
+               <div>
+                  <ul>
+                     <li><a href="#">Services.</a></li>
+                     <li><a href="#">Work.</a></li>
+                     <li><a href="#">Contact.</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </header>
+      <div class="container">
+         <div class="contacttouch">
+             <div>
+                 <h1>Get in touch.</h1>
+                 <h6>Call, email, message, or chat with us.</h6>
+             </div>
+         </div>
+         <div class="contactdetail">
+             <div class="cdetail">
+                <h4>Let's talk</h4>
+                <div class="contactlinks">
+                    <div>
+                        <a href="tel: +917323393864">+91 (732) 339-3864</a>
+                    </div>
+                    <div>
+                        <a href="mailto:start@officen.com">start@officen.com</a>
+                    </div>
+                </div>
+                <address>
+                    New Jersey</br>
+                    7 Circle Terrace</br>
+                    Freehold, NJ 07728</br>
+                </address>
+             </div>
+             <div class="cforms">
+                <h4>Send us a message</h4> 
+                <div class="formflexdrop">
+                    <div>
+                        <div class="textoverlayinput">
+                            <input type="text" class="textbox"/>
+                            <label>First Name</label>
+                            <span>Error Message</span>
+                        </div>
+                        
+                    </div>
+                    <div>
+                        <div class="textoverlayinput">
+                            <input type="text" class="textbox"/>
+                            <label>Last Name</label>
+                            <span>Error Message</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="formflexdrop">
+                    <div>
+                        <div class="textoverlayinput">
+                            <input type="text" class="textbox"/>
+                            <label>Phone</label>
+                            <span>Error Message</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="textoverlayinput">
+                            <input type="text" class="textbox"/>
+                            <label>Email</label>
+                            <span>Error Message</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="textoverlayinput">
+                        <textarea rows="7" class="textbox"></textarea>
+                        <label>How can we help?</label>
+                        <span>Error Message</span>
+                    </div>
+                </div>
+                <div class="sendbtnblock">
+                    <button class="primarybtn">Send Message</button>
+                </div>
+            </div>
+         </div>
+      </div>
+
+      <footer>
+         <div class="container">
+            <div class="footerflex">
+               <div>
+                  <span>&copy; 2018 OfficeN. All rights reserved.</span>
+               </div>
+               <div>
+                  <div class="followus">
+                     <ul>
+                        <li><a href="#"><i class="fi fi-facebook"></i></a></li>
+                        <li><a href="#"><i class="fi fi-instagram"></i></a></li>
+                        <li><a href="#"><i class="fi fi-twitter"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      
+   <!-- 
+   <div class="bodyhomepage">
+   </div>
+   -->
+   
+   <!-- script -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+   <script src="js/main.min.js"></script>
+   </body>
+</html>

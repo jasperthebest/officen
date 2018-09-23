@@ -29,6 +29,19 @@
 			$('nav').toggleClass('active');
 		});
 
+		/* Focus Input Animation */
+		$('.textbox').focusin(function(){
+			$(this).parents('.textoverlayinput').addClass('focus');
+		});
+		$('.textoverlayinput label').click(function(){
+			$(this).siblings('input').focus();
+		});
+		$('.textbox').focusout(function(){
+			if($(this).val().length == 0) {
+				$(this).parents('.textoverlayinput').removeClass('focus');
+			}
+		});
+
 		/* Desktop Scroll */
 		$('.homewall').on('mousewheel DOMMouseScroll', function(event) {
 	    	if($(window).scrollTop() == 0) {

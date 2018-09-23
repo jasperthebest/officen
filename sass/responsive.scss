@@ -102,12 +102,19 @@
 		h3 { font-size: 40px; line-height: 50px; }
 	}
 	.suggestflex>div { flex: 1 1 100%; padding: 35px 0; }
+	.contacttouch>div h1 { font-size: 40px; line-height: 50px; }
 }
 @media screen and (max-width:960px) {
 	.container { width: auto; }
+	.contactdetail .cforms, .contactdetail .cdetail { flex: 1 1 100%; }
+	.contacttouch>div { padding-bottom: 0; }
+	.contactdetail .cdetail { padding-bottom: 35px; }
 }
 @media screen and (max-width:840px) {
 	.leftspacing { margin-left: 0; }
+	h4 { font-size: 30px; line-height: 38px; }
+	.contactdetail h4 { padding-bottom: 20px; }
+	.contactdetail .cdetail .contactlinks { padding-bottom: 20px; }
 }
 @media screen and (max-width:740px) {
 	.wedoflex { width: 100%; }
@@ -122,6 +129,13 @@
 	.blogarticle ul { padding-bottom: 25px; }
 	.blogarticle h1, .blogarticle h2, .blogarticle h3 { padding-bottom: 20px; }
 	.projectdetails { padding-bottom: 0; }
+	.formflexdrop { padding-bottom: 0;
+		> div { flex: 1 1 100%; padding-bottom: 20px; 
+			&:first-child { padding-right: 0; }
+			&:last-child { padding-left: 0; }
+		}
+	}
+	.contactdetail { padding-bottom: 60px; }
 }
 @media screen and (max-width:560px) {
 	.firstboxmid>div.sidecontent h1 { font-size: 32px; line-height: 38px; }
@@ -150,6 +164,7 @@
 	.linkprojects img { right: 0; top: -25px; }
 	.flexstatistics>div strong { font-size: 50px; line-height: 60px; }
 	.suggestflex>div { padding: 25px 0; }
+	.contactdetail { padding-bottom: 50px; }
 }
 @media screen and (max-width:400px) {
 	.firstboxmid>div.sidecontent h1 { font-size: 28px; line-height: 35px; }
